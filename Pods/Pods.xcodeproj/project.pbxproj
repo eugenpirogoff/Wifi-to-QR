@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC96A911F07003FAFA084CABFF7D517 /* DTTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DE1118AB330E376523FEA1C83EAD6 /* DTTextField-dummy.m */; };
+		114344742CB425E9E1E78F4DB225BAD5 /* DTTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 858EECEA236E4A03E488BDDB8033E12C /* DTTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5741B14EE883979A5D3F2B586F66BD25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		6A40F9CA14BDF8F8ADDEE644E61C6AEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		9CECA90142715A9C30F32313872A9779 /* DTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90344B078A42FD2BA997EF69B70DAFDF /* DTTextField.swift */; };
+		BB85690F57262571E102AC87006CB2CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		C1C00E0ADEDCE327674584B5E3202A2B /* Pods-Wifi to QR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC791949AC38C401E78FD6DF6EC615 /* Pods-Wifi to QR-dummy.m */; };
+		D05A292C639D3F16D3EE975A5AB5BFB2 /* Pods-Wifi to QR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D4E23F447693B51D8D8C2D9719F905 /* Pods-Wifi to QR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05649CE71676CDF8096E796F4E6D162F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B02AE53302975DAB935863C48802E5C;
+			remoteInfo = DTTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FAC791949AC38C401E78FD6DF6EC615 /* Pods-Wifi to QR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Wifi to QR-dummy.m"; sourceTree = "<group>"; };
+		225444569597513234EF70B156DE9E90 /* Pods-Wifi to QR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wifi to QR.debug.xcconfig"; sourceTree = "<group>"; };
+		3C1F9907F2358DF1FBCDD2673B1E14B0 /* DTTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTTextField-prefix.pch"; sourceTree = "<group>"; };
+		515F5E630B77C58854A9CBB3EA80FFBC /* Pods_Wifi_to_QR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Wifi_to_QR.framework; path = "Pods-Wifi to QR.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55517268F9F70057C325EF373004EBB3 /* Pods-Wifi to QR-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wifi to QR-resources.sh"; sourceTree = "<group>"; };
+		56CD87B974F28885CC1127115364CECB /* DTTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DTTextField.framework; path = DTTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7084C37E1EA0D148D95F4D028261D59C /* Pods-Wifi to QR-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Wifi to QR-acknowledgements.plist"; sourceTree = "<group>"; };
+		858EECEA236E4A03E488BDDB8033E12C /* DTTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTTextField-umbrella.h"; sourceTree = "<group>"; };
+		885633B1AF6526DDB78070D4DA388935 /* Pods-Wifi to QR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Wifi to QR.modulemap"; sourceTree = "<group>"; };
+		90344B078A42FD2BA997EF69B70DAFDF /* DTTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTTextField.swift; path = DTTextField/Classes/DTTextField.swift; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		954585F226F3A43939A4B9B3EB9085B6 /* Pods-Wifi to QR-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wifi to QR-frameworks.sh"; sourceTree = "<group>"; };
+		98A6376A2CF1E97150BF259E8A2ABCBB /* DTTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DTTextField.modulemap; sourceTree = "<group>"; };
+		B5C3976675494D1208F97E54F846773B /* Pods-Wifi to QR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wifi to QR.release.xcconfig"; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE880E6AED391C5479DA8982F2F1A57C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0224E6F6E0685257543B5A22FB7097A /* DTTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTTextField.xcconfig; sourceTree = "<group>"; };
+		E3B39B182DDEEB729D32714B939D8C4B /* Pods-Wifi to QR-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Wifi to QR-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E64DE1118AB330E376523FEA1C83EAD6 /* DTTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTTextField-dummy.m"; sourceTree = "<group>"; };
+		F3C399177B25D65057CB4D137E76EF40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D4E23F447693B51D8D8C2D9719F905 /* Pods-Wifi to QR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Wifi to QR-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		891446E39C8F2FDB2318331AAD75DEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A40F9CA14BDF8F8ADDEE644E61C6AEE /* Foundation.framework in Frameworks */,
+				BB85690F57262571E102AC87006CB2CE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA18B0DCBB7D1D5DA9AE110AE2CF7EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5741B14EE883979A5D3F2B586F66BD25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0681B1681537D3EB8C265CE0A38907BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98A6376A2CF1E97150BF259E8A2ABCBB /* DTTextField.modulemap */,
+				E0224E6F6E0685257543B5A22FB7097A /* DTTextField.xcconfig */,
+				E64DE1118AB330E376523FEA1C83EAD6 /* DTTextField-dummy.m */,
+				3C1F9907F2358DF1FBCDD2673B1E14B0 /* DTTextField-prefix.pch */,
+				858EECEA236E4A03E488BDDB8033E12C /* DTTextField-umbrella.h */,
+				CE880E6AED391C5479DA8982F2F1A57C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DTTextField";
+			sourceTree = "<group>";
+		};
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		11E2EFE5BD57C70EB6AAE3456E9C84ED /* DTTextField */ = {
+			isa = PBXGroup;
+			children = (
+				90344B078A42FD2BA997EF69B70DAFDF /* DTTextField.swift */,
+				0681B1681537D3EB8C265CE0A38907BA /* Support Files */,
+			);
+			name = DTTextField;
+			path = DTTextField;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				AE8BBC3B3650132942BF614B77190095 /* Pods */,
+				E58E9EF828DACADCA067D0F517187EEA /* Products */,
+				8B6910D3599D358461AEC5DC118C0725 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B6910D3599D358461AEC5DC118C0725 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F122B9100D74FE16C10240DA4DFB478C /* Pods-Wifi to QR */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AE8BBC3B3650132942BF614B77190095 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11E2EFE5BD57C70EB6AAE3456E9C84ED /* DTTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E58E9EF828DACADCA067D0F517187EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56CD87B974F28885CC1127115364CECB /* DTTextField.framework */,
+				515F5E630B77C58854A9CBB3EA80FFBC /* Pods_Wifi_to_QR.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F122B9100D74FE16C10240DA4DFB478C /* Pods-Wifi to QR */ = {
+			isa = PBXGroup;
+			children = (
+				F3C399177B25D65057CB4D137E76EF40 /* Info.plist */,
+				885633B1AF6526DDB78070D4DA388935 /* Pods-Wifi to QR.modulemap */,
+				E3B39B182DDEEB729D32714B939D8C4B /* Pods-Wifi to QR-acknowledgements.markdown */,
+				7084C37E1EA0D148D95F4D028261D59C /* Pods-Wifi to QR-acknowledgements.plist */,
+				1FAC791949AC38C401E78FD6DF6EC615 /* Pods-Wifi to QR-dummy.m */,
+				954585F226F3A43939A4B9B3EB9085B6 /* Pods-Wifi to QR-frameworks.sh */,
+				55517268F9F70057C325EF373004EBB3 /* Pods-Wifi to QR-resources.sh */,
+				F9D4E23F447693B51D8D8C2D9719F905 /* Pods-Wifi to QR-umbrella.h */,
+				225444569597513234EF70B156DE9E90 /* Pods-Wifi to QR.debug.xcconfig */,
+				B5C3976675494D1208F97E54F846773B /* Pods-Wifi to QR.release.xcconfig */,
+			);
+			name = "Pods-Wifi to QR";
+			path = "Target Support Files/Pods-Wifi to QR";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D07546FE4B1A8261B10BE963A45E0236 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05A292C639D3F16D3EE975A5AB5BFB2 /* Pods-Wifi to QR-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C4714E1DD1EC8B4662C6B6377ED548 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114344742CB425E9E1E78F4DB225BAD5 /* DTTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5938AA39B9F221CA7D10AC8270CA8B3D /* Pods-Wifi to QR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38AA798EDACCB7E64280632E332A40A /* Build configuration list for PBXNativeTarget "Pods-Wifi to QR" */;
+			buildPhases = (
+				BF8C1B9FCE7E54F72116FA48B0521D62 /* Sources */,
+				BA18B0DCBB7D1D5DA9AE110AE2CF7EFA /* Frameworks */,
+				D07546FE4B1A8261B10BE963A45E0236 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AC1932BC1C4AA17695076FED1900E00 /* PBXTargetDependency */,
+			);
+			name = "Pods-Wifi to QR";
+			productName = "Pods-Wifi to QR";
+			productReference = 515F5E630B77C58854A9CBB3EA80FFBC /* Pods_Wifi_to_QR.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B02AE53302975DAB935863C48802E5C /* DTTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BA34861E2511544ED0E2096A955242 /* Build configuration list for PBXNativeTarget "DTTextField" */;
+			buildPhases = (
+				9EE8A2691A3A3E0E344F078205DD91C0 /* Sources */,
+				891446E39C8F2FDB2318331AAD75DEAE /* Frameworks */,
+				E5C4714E1DD1EC8B4662C6B6377ED548 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTTextField;
+			productName = DTTextField;
+			productReference = 56CD87B974F28885CC1127115364CECB /* DTTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E58E9EF828DACADCA067D0F517187EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B02AE53302975DAB935863C48802E5C /* DTTextField */,
+				5938AA39B9F221CA7D10AC8270CA8B3D /* Pods-Wifi to QR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EE8A2691A3A3E0E344F078205DD91C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC96A911F07003FAFA084CABFF7D517 /* DTTextField-dummy.m in Sources */,
+				9CECA90142715A9C30F32313872A9779 /* DTTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8C1B9FCE7E54F72116FA48B0521D62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C00E0ADEDCE327674584B5E3202A2B /* Pods-Wifi to QR-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AC1932BC1C4AA17695076FED1900E00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTTextField;
+			target = 5B02AE53302975DAB935863C48802E5C /* DTTextField */;
+			targetProxy = 05649CE71676CDF8096E796F4E6D162F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1313D79DAB13C9FA1909B768C9D3EA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 225444569597513234EF70B156DE9E90 /* Pods-Wifi to QR.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Wifi to QR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Wifi to QR/Pods-Wifi to QR.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19B5B005951A0FA3095DA17115CACF9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0224E6F6E0685257543B5A22FB7097A /* DTTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTTextField/DTTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DTTextField/DTTextField.modulemap";
+				PRODUCT_MODULE_NAME = DTTextField;
+				PRODUCT_NAME = DTTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		560288239FC093EB4B1F2758E9B7887A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C3976675494D1208F97E54F846773B /* Pods-Wifi to QR.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Wifi to QR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Wifi to QR/Pods-Wifi to QR.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E811974ACEC3D6AD2ADD4FA6044A6474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0224E6F6E0685257543B5A22FB7097A /* DTTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTTextField/DTTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DTTextField/DTTextField.modulemap";
+				PRODUCT_MODULE_NAME = DTTextField;
+				PRODUCT_NAME = DTTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BA34861E2511544ED0E2096A955242 /* Build configuration list for PBXNativeTarget "DTTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B5B005951A0FA3095DA17115CACF9F /* Debug */,
+				E811974ACEC3D6AD2ADD4FA6044A6474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38AA798EDACCB7E64280632E332A40A /* Build configuration list for PBXNativeTarget "Pods-Wifi to QR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1313D79DAB13C9FA1909B768C9D3EA19 /* Debug */,
+				560288239FC093EB4B1F2758E9B7887A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

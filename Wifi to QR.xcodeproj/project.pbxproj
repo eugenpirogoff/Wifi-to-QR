@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C7197C020A8B9E300F2C112 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7197BF20A8B9E300F2C112 /* Extensions.swift */; };
+		4CF8FE2F20A0D4F20086E251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8FE2E20A0D4F20086E251 /* AppDelegate.swift */; };
+		4CF8FE3120A0D4F20086E251 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8FE3020A0D4F20086E251 /* ViewController.swift */; };
+		4CF8FE3420A0D4F20086E251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8FE3220A0D4F20086E251 /* Main.storyboard */; };
+		4CF8FE3620A0D4F40086E251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8FE3520A0D4F40086E251 /* Assets.xcassets */; };
+		D6CA1DE4D2A5C4E5BD58BE5F /* Pods_Wifi_to_QR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C21B7805BE625BEFC5C3CB /* Pods_Wifi_to_QR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E0818195B16AAD47406DB2D /* Pods-Wifi to QR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wifi to QR.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wifi to QR/Pods-Wifi to QR.release.xcconfig"; sourceTree = "<group>"; };
+		4C7197BF20A8B9E300F2C112 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4CF8FE2B20A0D4F20086E251 /* Wifi to QR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wifi to QR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF8FE2E20A0D4F20086E251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CF8FE3020A0D4F20086E251 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CF8FE3320A0D4F20086E251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CF8FE3520A0D4F40086E251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF8FE3A20A0D4F40086E251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4F14C6BC4D564006D34F73 /* Pods-Wifi to QR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wifi to QR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wifi to QR/Pods-Wifi to QR.debug.xcconfig"; sourceTree = "<group>"; };
+		64C21B7805BE625BEFC5C3CB /* Pods_Wifi_to_QR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wifi_to_QR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF8FE2820A0D4F20086E251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CA1DE4D2A5C4E5BD58BE5F /* Pods_Wifi_to_QR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CF8FE2220A0D4F20086E251 = {
+			isa = PBXGroup;
+			children = (
+				4CF8FE2D20A0D4F20086E251 /* Wifi to QR */,
+				4CF8FE2C20A0D4F20086E251 /* Products */,
+				9FB8F12921B3DFE4C7AD2A8F /* Pods */,
+				52DFB1F4CFCED7758CACC8A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF8FE2C20A0D4F20086E251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF8FE2B20A0D4F20086E251 /* Wifi to QR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF8FE2D20A0D4F20086E251 /* Wifi to QR */ = {
+			isa = PBXGroup;
+			children = (
+				4CF8FE2E20A0D4F20086E251 /* AppDelegate.swift */,
+				4C7197BF20A8B9E300F2C112 /* Extensions.swift */,
+				4CF8FE3020A0D4F20086E251 /* ViewController.swift */,
+				4CF8FE3220A0D4F20086E251 /* Main.storyboard */,
+				4CF8FE3520A0D4F40086E251 /* Assets.xcassets */,
+				4CF8FE3A20A0D4F40086E251 /* Info.plist */,
+			);
+			path = "Wifi to QR";
+			sourceTree = "<group>";
+		};
+		52DFB1F4CFCED7758CACC8A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64C21B7805BE625BEFC5C3CB /* Pods_Wifi_to_QR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FB8F12921B3DFE4C7AD2A8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F4F14C6BC4D564006D34F73 /* Pods-Wifi to QR.debug.xcconfig */,
+				3E0818195B16AAD47406DB2D /* Pods-Wifi to QR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF8FE2A20A0D4F20086E251 /* Wifi to QR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF8FE3D20A0D4F40086E251 /* Build configuration list for PBXNativeTarget "Wifi to QR" */;
+			buildPhases = (
+				5B6E6FC54910E35255C299E6 /* [CP] Check Pods Manifest.lock */,
+				4CF8FE2720A0D4F20086E251 /* Sources */,
+				4CF8FE2820A0D4F20086E251 /* Frameworks */,
+				4CF8FE2920A0D4F20086E251 /* Resources */,
+				F13A7FB251F6C0033AFF010A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wifi to QR";
+			productName = "Wifi to QR";
+			productReference = 4CF8FE2B20A0D4F20086E251 /* Wifi to QR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF8FE2320A0D4F20086E251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Eugen;
+				TargetAttributes = {
+					4CF8FE2A20A0D4F20086E251 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 4CF8FE2620A0D4F20086E251 /* Build configuration list for PBXProject "Wifi to QR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CF8FE2220A0D4F20086E251;
+			productRefGroup = 4CF8FE2C20A0D4F20086E251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF8FE2A20A0D4F20086E251 /* Wifi to QR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF8FE2920A0D4F20086E251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF8FE3620A0D4F40086E251 /* Assets.xcassets in Resources */,
+				4CF8FE3420A0D4F20086E251 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B6E6FC54910E35255C299E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wifi to QR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13A7FB251F6C0033AFF010A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wifi to QR/Pods-Wifi to QR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DTTextField/DTTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wifi to QR/Pods-Wifi to QR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF8FE2720A0D4F20086E251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7197C020A8B9E300F2C112 /* Extensions.swift in Sources */,
+				4CF8FE3120A0D4F20086E251 /* ViewController.swift in Sources */,
+				4CF8FE2F20A0D4F20086E251 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CF8FE3220A0D4F20086E251 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF8FE3320A0D4F20086E251 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF8FE3B20A0D4F40086E251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4F14C6BC4D564006D34F73 /* Pods-Wifi to QR.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CF8FE3C20A0D4F40086E251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0818195B16AAD47406DB2D /* Pods-Wifi to QR.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF8FE3E20A0D4F40086E251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4F14C6BC4D564006D34F73 /* Pods-Wifi to QR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6E5RVX7ELK;
+				INFOPLIST_FILE = "Wifi to QR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.pirogoff.Wifi-to-QR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cfd75c7e-3470-4db3-b00b-09c7041ee6db";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore me.pirogoff.Wifi-to-QR";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CF8FE3F20A0D4F40086E251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0818195B16AAD47406DB2D /* Pods-Wifi to QR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6E5RVX7ELK;
+				INFOPLIST_FILE = "Wifi to QR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.pirogoff.Wifi-to-QR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cfd75c7e-3470-4db3-b00b-09c7041ee6db";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore me.pirogoff.Wifi-to-QR";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF8FE2620A0D4F20086E251 /* Build configuration list for PBXProject "Wifi to QR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF8FE3B20A0D4F40086E251 /* Debug */,
+				4CF8FE3C20A0D4F40086E251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF8FE3D20A0D4F40086E251 /* Build configuration list for PBXNativeTarget "Wifi to QR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF8FE3E20A0D4F40086E251 /* Debug */,
+				4CF8FE3F20A0D4F40086E251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF8FE2320A0D4F20086E251 /* Project object */;
+}

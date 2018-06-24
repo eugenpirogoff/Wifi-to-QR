@@ -1,0 +1,8 @@
+app_identifier("me.pirogoff.Wifi-to-QR") # The bundle identifier of your app
+apple_id("eugenpirogoff@me.com") # Your Apple email address
+
+itc_team_id("930741") # iTunes Connect Team ID
+team_id("6E5RVX7ELK") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

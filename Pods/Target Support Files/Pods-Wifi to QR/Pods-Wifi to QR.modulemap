@@ -1,0 +1,6 @@
+framework module Pods_Wifi_to_QR {
+  umbrella header "Pods-Wifi to QR-umbrella.h"
+
+  export *
+  module * { export * }
+}
